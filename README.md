@@ -31,5 +31,10 @@ postgres=# show data_directory;
  /var/lib/postgresql/15/main
 (1 row)
 ```
+<br/><br/>
 
+4. останавливаю postgres:
 
+    ![3](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/3bc05b14-9f08-47b9-ac34-deebaad39c99)
+
+   <br/><br/>

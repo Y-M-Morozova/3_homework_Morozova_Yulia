@@ -10,9 +10,11 @@
  
 <br/><br/>
 
-2.	Создаю docker-сеть pg-net:
+2.	Устанавливаю  PostgreSQL 15 и проверяю кластер:
 
-    ![2](https://github.com/Y-M-Morozova/2_homework_Morozova_Yulia/assets/153178571/c45b2e71-11f7-463c-92c8-c36391c1ab5d)
+    ![1_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/21376cde-e71b-440f-a951-9c9124ea739b)
+
+
 
 <br/><br/>
 

@@ -45,11 +45,24 @@ postgres=# show data_directory;
 
     <br/><br/>
       
-6. Определяю (индетифицирую свой диск 10 GB в системе(у меня это : ```vdb```) :
+6. Определяю (идентифицирую свой диск 10 GB в системе(у меня это : ```vdb```) :
 
     ![4_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/02ab13f0-b364-488c-b42d-76fafb03b56a)
 
    <br/><br/>
 
-   
+7. Партицирую новый диск:
+
+- выбираю стандарт GPT:
+
+    ![5](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/7c871eb0-27ca-4d7c-a3fd-45bd9bf8871c)
+
+- создаю новый раздел на весь диск :
+
+    ![5_111](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/63e85247-39e2-4c73-b3f2-2047db9b12d6)
+
+
+
+  
+     
    

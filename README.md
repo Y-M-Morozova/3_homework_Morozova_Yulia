@@ -16,9 +16,20 @@
 
 <br/><br/>
 
-3.	Логинюсь пользователем postgres в psql и создаю для тестов таблицу test, вставляю туда строку:
+3.	Логинюсь пользователем postgres в psql и создаю для тестов таблицу test, вставляю туда строку, так же смотрю конфигурационные файлы: 
 
-    ![2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/91552fa9-b46a-4552-b9f4-7c82f32e2502)
-
+    ![2_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/4d4d876d-20b8-4ae1-be29-e769a995e765)
 
 <br/><br/>
+
+и обращаю внимание, что data directory - на текущий момент по умолчанию:
+
+```
+postgres=# show data_directory;
+       data_directory
+-----------------------------
+ /var/lib/postgresql/15/main
+(1 row)
+```
+
+

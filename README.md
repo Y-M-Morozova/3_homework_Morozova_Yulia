@@ -4,9 +4,9 @@
 
 <br/><br/>
 
-1. Создаю в яндекс облаке ВМ с Ubuntu /22.04 и устанавливаю докер:
+1. Создаю ВМ c Ubuntu 20.04 LTS в ЯО :
 
-    ![1](https://github.com/Y-M-Morozova/2_homework_Morozova_Yulia/assets/153178571/b9216a02-aede-4882-baf0-dfbbcc8838d3)
+    ![1_0](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/eda1997f-907b-47c9-a45b-dc8fe09737d9)
  
 <br/><br/>
 

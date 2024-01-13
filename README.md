@@ -45,3 +45,11 @@ postgres=# show data_directory;
 
     <br/><br/>
       
+6. Определяю (индетифицирую свой диск 10 GB в системе(у меня это : ```vdb```) :
+
+    ![4_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/02ab13f0-b364-488c-b42d-76fafb03b56a)
+
+   <br/><br/>
+
+   
+   

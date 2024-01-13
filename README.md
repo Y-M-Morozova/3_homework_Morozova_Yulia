@@ -33,8 +33,15 @@ postgres=# show data_directory;
 ```
 <br/><br/>
 
-4. останавливаю postgres:
+4. Останавливаю postgres:
 
     ![3](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/3bc05b14-9f08-47b9-ac34-deebaad39c99)
 
    <br/><br/>
+
+5.  Создаю новый диск к ВМ размером 10GB и добавляю его в своей ВМ в яндекс облаке:
+  
+    ![4](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/516aec6e-9c0c-4920-af68-c3b3d1ee1af4)
+
+    <br/><br/>
+      

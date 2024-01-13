@@ -14,12 +14,11 @@
 
     ![1_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/21376cde-e71b-440f-a951-9c9124ea739b)
 
-
-
 <br/><br/>
 
-3.	Подключаю созданную сеть pg-net к контейнеру(pg-server) сервера Postgres, версия 15, порт хоста 5432, порт контейнера 5432, создаю и монтирую ЛОКАЛЬНУЮ папку для хранения данных: /var/lib/postgresql/data:
+3.	Логинюсь пользователем postgres в psql и создаю для тестов таблицу test, вставляю туда строку:
 
-    ![3](https://github.com/Y-M-Morozova/2_homework_Morozova_Yulia/assets/153178571/a8699bfe-809f-4c87-ad00-16245ce1bdfd)
+    ![2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/91552fa9-b46a-4552-b9f4-7c82f32e2502)
+
 
 <br/><br/>

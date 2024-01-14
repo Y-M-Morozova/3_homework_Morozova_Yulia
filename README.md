@@ -106,3 +106,27 @@ postgres=# show data_directory;
     ![6_0](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/9f9ec949-9cea-4f62-9c11-8f16754d8425)
 
     ![6_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/15b691f5-5791-4106-bc53-482812882883)
+
+<br/><br/>
+
+ 14. Кластер не может стартовать(ошибка выше), так как в конфигурационном файле ```/etc/postgresql/15/main/postgresql.conf```
+     каталог данных Postgres определен как :
+     ```data_directory = '/var/lib/postgresql/15/main'```, а я его переместила.
+    Поэтому сначала изменяю эту строку на: ```data_directory = '/mnt/otus_data/15/main'``` в файле ```/etc/postgresql/15/main/postgresql.conf```,
+    а затем успешно стартую Postgres:
+
+     ![6_999](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/7660068f-6cd4-446c-aa3a-10af215dc544)
+
+     ![99_3](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/53a90433-41ad-4714-ab69-3b32b83a206f)
+
+<br/><br/>
+
+15. Логинюсь в psql, еще раз проверяю ```data_directory``` и делаю запрос к своей тестовой таблице ```test``` - вс ок!
+
+    ![11](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/1e4fcdc1-7ec2-4970-99ee-e9850ec8d22c)
+
+<br/><br/> 
+
+    
+
+    

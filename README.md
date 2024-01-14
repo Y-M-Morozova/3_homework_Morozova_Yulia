@@ -77,7 +77,14 @@ postgres=# show data_directory;
 
 <br/><br/>
    
+10. Чтобы автоматически монтировать файловую систему при каждой загрузке сервера, добавляю запись об этой файловой системе  в ```/etc/fstab``` файл:
 
+![5_7](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/6d4df281-7123-44c3-9985-ebd4664c08ec)
+
+<br/><br/>
+
+
+    
 
    
 

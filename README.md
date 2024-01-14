@@ -45,7 +45,7 @@ postgres=# show data_directory;
 
     <br/><br/>
       
-6. Определяю (идентифицирую свой диск 10 GB в системе(у меня это : ```vdb```) :
+6. Определяю (идентифицирую свой диск 10 GB в системе(у меня это  ```vdb```) :
 
     ![4_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/02ab13f0-b364-488c-b42d-76fafb03b56a)
 
@@ -68,6 +68,20 @@ postgres=# show data_directory;
    ![5_3](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/ce1eee95-efe6-4b31-8fc1-2e71bb00989a)
 
    ![5_4](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/e335b3db-a873-47e9-a1b0-b09467496ce4)
+
+    <br/><br/>
+
+9. Создаю каталог (на этой машине у меня он будет ```/mnt/otus_data```) и монтирую новую файловую систему:
+
+    ![5_5](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/65f44282-e2eb-42f6-b4e3-97a87ae59f65)
+
+<br/><br/>
+   
+
+
+   
+
+-        
 
    
 

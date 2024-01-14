@@ -148,9 +148,24 @@ postgres=# show data_directory;
    
 <br/><br/>
 
-4. В ЯО перемонитрую свой внешний диск ```disk1-otus-dz6``` от предыдущей ВМ  ```otus-db-pg-vm-2``` к новой ВМ ```otus-db-pg-vm-5```:
+4. В ЯО перемонтирую свой внешний диск ```disk1-otus-dz6``` от предыдущей ВМ  ```otus-db-pg-vm-2``` к новой ВМ ```otus-db-pg-vm-5```:
 
     ![110](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/4dc21d79-e4bd-43aa-9728-1cf4c20ecb06)
 
 <br/><br/>
     
+5. Проверяю диск на ВМ, он есть:
+
+    ![102](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/dd3dc318-352d-4b24-a356-b8ddd45e34d5)
+
+<br/><br/>
+
+6. На этой ВМ создаю каталог ```/mnt/data```  и монтирую диск в эту папку:
+
+    ![103](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/b2990dcc-4760-4a76-b858-635b8f0d2610)
+
+<br/><br/>
+
+
+
+   

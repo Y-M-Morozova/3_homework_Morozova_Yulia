@@ -61,6 +61,15 @@ postgres=# show data_directory;
 
     ![5_111](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/63e85247-39e2-4c73-b3f2-2047db9b12d6)
 
+    <br/><br/>
+    
+8. Создаю файловую систему в новом разделе:
+
+   ![5_3](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/ce1eee95-efe6-4b31-8fc1-2e71bb00989a)
+
+   ![5_4](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/e335b3db-a873-47e9-a1b0-b09467496ce4)
+
+   
 
 
   

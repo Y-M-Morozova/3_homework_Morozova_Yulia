@@ -37,19 +37,19 @@ postgres=# show data_directory;
 
     ![3](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/3bc05b14-9f08-47b9-ac34-deebaad39c99)
 
-   <br/><br/>
+<br/><br/>
 
 5.  Создаю новый диск к ВМ размером 10GB и добавляю его в своей ВМ в яндекс облаке:
   
     ![4](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/516aec6e-9c0c-4920-af68-c3b3d1ee1af4)
 
-    <br/><br/>
+<br/><br/>
       
 6. Определяю (идентифицирую свой диск 10 GB в системе(у меня это  ```vdb```) :
 
     ![4_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/02ab13f0-b364-488c-b42d-76fafb03b56a)
 
-   <br/><br/>
+<br/><br/>
 
 7. Партицирую новый диск:
 
@@ -61,7 +61,7 @@ postgres=# show data_directory;
 
     ![5_111](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/63e85247-39e2-4c73-b3f2-2047db9b12d6)
 
-    <br/><br/>
+<br/><br/>
     
 8. Создаю файловую систему в новом разделе:
 
@@ -69,7 +69,7 @@ postgres=# show data_directory;
 
    ![5_4](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/e335b3db-a873-47e9-a1b0-b09467496ce4)
 
-    <br/><br/>
+<br/><br/>
 
 9. Создаю каталог (на этой машине у меня он будет ```/mnt/otus_data```) и монтирую новую файловую систему:
 
@@ -79,11 +79,20 @@ postgres=# show data_directory;
    
 10. Чтобы автоматически монтировать файловую систему при каждой загрузке сервера, добавляю запись об этой файловой системе  в ```/etc/fstab``` файл:
 
-![5_7](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/6d4df281-7123-44c3-9985-ebd4664c08ec)
+    ![5_7](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/6d4df281-7123-44c3-9985-ebd4664c08ec)
 
 <br/><br/>
 
+11. Проверяю, что диск доступен и есть возможность чтения/записи на него(пишу, читаю в текcтовый файл ```/mnt/data/test_file```):
 
+    ![5_8](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/50eca95c-f6e9-4b6a-915c-f1bc0d9eba58)
+
+    ![5_9](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/d8915027-f271-487a-939f-38eeef2137ca)
+    
+<br/><br/>
+
+
+    
     
 
    

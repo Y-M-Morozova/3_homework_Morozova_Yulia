@@ -91,6 +91,19 @@ postgres=# show data_directory;
     
 <br/><br/>
 
+12. рестартую свою ВМ для проверки, что диск после рестарта подключился, и  снова читаю файл ```/mnt/data/test_file``` , все ок:
+
+    ![5_99](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/bfb25b39-76c0-4533-b504-fca920344d10)
+
+    ![5_100](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/c1ba1ef9-6c5c-47e3-9930-4ce611297058)
+
+<br/><br/>
+
+
+
+
+
+    
 
     
     

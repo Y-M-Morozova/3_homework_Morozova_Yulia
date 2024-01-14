@@ -130,5 +130,17 @@ postgres=# show data_directory;
 ***     
 ### * Задание со звездочкой *
 
+<br/><br/>
+
+1. Создаю новую ВМ в ЯО:
+
+    ![107](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/9a1f7a0f-2626-4d68-ac5f-c84d65e9e6d0)
+
+2. Устанавливаю на эту ВМ PostgreSQL 15 версии, логинюусь и проверяю  ```data_directory```, он по умолчанию:
+
+    ![101](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/acb8e75b-970e-44c4-9eb8-e5233bb7517a)
+        
+   
+
 
     

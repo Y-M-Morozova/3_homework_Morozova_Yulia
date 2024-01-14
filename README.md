@@ -169,4 +169,16 @@ postgres=# show data_directory;
 7. Делаю пользователя postgres владельцем ```/mnt/data```:
 
     ![105](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/8bcb0c62-c948-4908-a54b-ca2b1f67d5e2)
+
+<br/><br/>
+
+9. В конфигурационном файле ```/etc/postgresql/15/main/postgresql.conf``` исправляю ```data_directory = '/var/lib/postgresql/15/main'``` на ```data_directory = '/mnt/data/15/main'```
+    и успешно стартую postgres! Проверяю нашу таблицу ```test```, все ок !
+
+    ![106](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/a4475284-8e43-47e1-abba-9ea11d060cb7)
+
+
+*** 
+   
+   
    

@@ -99,22 +99,10 @@ postgres=# show data_directory;
 
 <br/><br/>
 
+13. Командой ```sudo chown -R postgres:postgres /mnt/otus_data/```делаю владельцем пользователя postgres каталога ```/mnt/otus_data```,
+    переношу содержимое ```/var/lib/postgres/15``` в ```/mnt/otus_data```,
+    пробую стартовать кластер postgres, но получаю ошибку:
 
+    ![6_0](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/9f9ec949-9cea-4f62-9c11-8f16754d8425)
 
-
-
-    
-
-    
-    
-
-   
-
--        
-
-   
-
-
-  
-     
-   
+    ![6_2](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/15b691f5-5791-4106-bc53-482812882883)

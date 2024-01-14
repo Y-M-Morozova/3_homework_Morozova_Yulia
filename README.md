@@ -127,6 +127,8 @@ postgres=# show data_directory;
 
 <br/><br/> 
 
-    
+***     
+### * Задание со звездочкой *
+
 
     

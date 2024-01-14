@@ -166,6 +166,7 @@ postgres=# show data_directory;
 
 <br/><br/>
 
+7. Делаю пользователя postgres владельцем ```/mnt/data```:
 
-
+    ![105](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/8bcb0c62-c948-4908-a54b-ca2b1f67d5e2)
    

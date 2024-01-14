@@ -136,11 +136,21 @@ postgres=# show data_directory;
 
     ![107](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/9a1f7a0f-2626-4d68-ac5f-c84d65e9e6d0)
 
-2. Устанавливаю на эту ВМ PostgreSQL 15 версии, логинюусь и проверяю  ```data_directory```, он по умолчанию:
+2. Устанавливаю на эту ВМ PostgreSQL 15 версии, логинюсь и проверяю  ```data_directory```, он по умолчанию:
 
     ![101](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/acb8e75b-970e-44c4-9eb8-e5233bb7517a)
         
+<br/><br/>
+
+3. Останавливаю postgres, удаляю файлы с данными из /var/lib/postgres, проверяю:
+
+    ![109](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/3c36b3fe-5267-42af-86df-13f325f71eb1)
    
+<br/><br/>
 
+4. В ЯО перемонитрую свой внешний диск ```disk1-otus-dz6``` от предыдущей ВМ  ```otus-db-pg-vm-2``` к новой ВМ ```otus-db-pg-vm-5```:
 
+    ![110](https://github.com/Y-M-Morozova/3_homework_Morozova_Yulia/assets/153178571/4dc21d79-e4bd-43aa-9728-1cf4c20ecb06)
+
+<br/><br/>
     
